@@ -15,7 +15,7 @@ function ManageProduct() {
 
             <div className='content'>
                 {productsData.map(item => (
-                    <div className={`productInfo ${item.special&&'special'}`} key={item.id}>
+                    <div className={`productInfo ${item.special && 'special'}`} key={item.id}>
                         <img
                             src={item.img}
                             alt={item.title}

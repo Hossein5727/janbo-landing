@@ -1,9 +1,6 @@
 .footer{
     position: relative;
 
-    .img{
-// margin-bottom: -5px;
-    }
 
     .submit{
         position: absolute;
@@ -18,5 +15,11 @@
         font-size: 34px;
         font-weight: bold;
         font-family: 'Yekan' !important;
+    }
+
+    @media screen and (max-width:768px) {
+        .submit{
+            left: 15%;
+        }
     }
 }

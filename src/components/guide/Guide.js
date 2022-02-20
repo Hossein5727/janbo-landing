@@ -12,6 +12,7 @@ function Guide() {
                     alt='titleImg'
                 />
             </div>
+            
             <div className='guideSection'>
 
                 <img

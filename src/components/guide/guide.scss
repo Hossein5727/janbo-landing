@@ -1,5 +1,6 @@
 .guide{
     padding: 4rem 6rem;
+    z-index: 5;
 
     .titleImg{
         display: flex;
@@ -13,5 +14,9 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 80px;
+    }
+
+    @media screen and (max-width:768px) {
+        display: none;
     }
 }

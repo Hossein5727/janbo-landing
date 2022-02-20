@@ -19,6 +19,12 @@
         border-radius: 20px;
         position: relative;
 
+        @media screen and (max-width:768px) {
+            width: 220px;
+            margin: auto;
+            text-align: center;
+        }
+
         .flower1{
             position: absolute;
             right: 0;
@@ -36,6 +42,7 @@
             flex-direction: column;
             margin-right: 35px;
 
+            
             @media screen and (max-width:768px) {
                 margin-right: 0;
             }
@@ -52,6 +59,8 @@
                 align-items: center;
                 flex-direction: column;
                 color: #fff;
+
+                
 
                 div{
                     position: absolute;

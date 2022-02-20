@@ -90,4 +90,44 @@
             margin: auto;
 }
     }
+
+    @media screen and (max-width:768px) {
+        .heroWrapper{    
+            background-color: #ef4444
+        }   
+        
+        .content{
+            flex-direction: column;
+            flex-flow: column-reverse;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .scrollBtn{
+            display: none !important;
+        }
+        
+        svg{
+            display: none;
+        }
+
+        .leftColumn{
+            width: 100%;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .rightColumn{
+            h1,p{
+                display: none;
+            }
+            .submit{
+                margin-top: 220px !important;
+                margin-right:0 !important;
+            }
+        }
+    }
 }
