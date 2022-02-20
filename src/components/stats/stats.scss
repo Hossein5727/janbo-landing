@@ -1,5 +1,8 @@
 .stats{
     padding: 4rem 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
     .titleImg{
         display: flex;
