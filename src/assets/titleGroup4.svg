@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="402" height="74" viewBox="0 0 402 74">
+  <g id="Group_1515" data-name="Group 1515" transform="translate(-537 -3380.254)">
+    <text id="دسته_بندی_محصولات" data-name="دسته‌بندی محصولات" transform="translate(607 3412.254)" fill="#dd3951" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">دسته‌بندی محصولات</tspan></text>
+    <text id="دسته_بندی_محصولات_ما_چه_چیزهایی_هستند" data-name="دسته بندی محصولات ما چه چیزهایی هستند" transform="translate(583 3450.254)" fill="#3e3e39" font-size="17" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="0" y="0">دسته بندی محصولات ما چه چیزهایی هستند</tspan></text>
+    <g id="Group_1391" data-name="Group 1391" transform="translate(0 -149.895)">
+      <g id="Group_1390" data-name="Group 1390" transform="translate(891 3548)">
+        <circle id="Ellipse_695" data-name="Ellipse 695" cx="8" cy="8" r="8" transform="translate(0 0)" fill="#dd3951"/>
+        <circle id="Ellipse_696" data-name="Ellipse 696" cx="6" cy="6" r="6" transform="translate(22 2)" fill="#dd3951"/>
+        <circle id="Ellipse_697" data-name="Ellipse 697" cx="4" cy="4" r="4" transform="translate(40 4)" fill="#dd3951"/>
+      </g>
+      <g id="Group_1389" data-name="Group 1389" transform="translate(537 3548)">
+        <circle id="Ellipse_695-2" data-name="Ellipse 695" cx="8" cy="8" r="8" transform="translate(32 0)" fill="#dd3951"/>
+        <circle id="Ellipse_696-2" data-name="Ellipse 696" cx="6" cy="6" r="6" transform="translate(14 2)" fill="#dd3951"/>
+        <circle id="Ellipse_697-2" data-name="Ellipse 697" cx="4" cy="4" r="4" transform="translate(0 4)" fill="#dd3951"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+.stats{
+    padding: 4rem 6rem;
+
+    .titleImg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    .content{
+        background-color: #dd39529a;
+        padding: 15px 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // gap: 15px;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        position: relative;
+
+        .flower1{
+            position: absolute;
+            right: 0;
+        }
+
+        .flower2{
+            position: absolute;
+            left: 0;
+        }
+
+        .state{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-right: 35px;
+
+            @media screen and (max-width:768px) {
+                margin-right: 0;
+            }
+
+            .contentState{
+                position: relative;
+                border-radius: 50%;
+                border: none;
+                background-color: #FF4E68;
+                width: 130px;
+                height: 130px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                color: #fff;
+
+                div{
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    left: 10px;
+                    bottom: 10px;
+                    z-index: 2;
+                    background-color: transparent;
+                    border: none;
+                    border-right: 2px solid rgba(128, 128, 128, 0.699);
+                    border-left: 2px solid rgba(128, 128, 128, 0.699);
+                    border-radius: 50%;
+                    transform: rotate(-30deg);
+                }
+
+                img{
+                    position: absolute;
+                    bottom: 0;
+                    top: -30px;
+                    left: 0;
+                    right: -50px;
+                    z-index: 1;
+                    width: 230px;
+                    height: 230px;
+                }
+            }
+            
+            h1{
+                direction: ltr;
+            }
+
+            h5{
+                text-align: center;
+            }
+
+            
+            h3{
+                margin-top: 20px;
+            }
+        }
+    }
+}

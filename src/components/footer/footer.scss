@@ -1,0 +1,22 @@
+.footer{
+    position: relative;
+
+    .img{
+// margin-bottom: -5px;
+    }
+
+    .submit{
+        position: absolute;
+        top: 150px;
+        left: 39%;
+        width: 250px;
+        background-color: #ffff;
+        border: 1px solid rgba(0, 0, 0, 0.24);
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 34px;
+        font-weight: bold;
+        font-family: 'Yekan' !important;
+    }
+}
